@@ -18,6 +18,7 @@ void Try(int i) {
     if(i >= n) {
         if(rev()) {
             for(int j=0; j < n;j++) cout << s[j] << ' ';
+            cout << '\n';
         }
         return;
     }
